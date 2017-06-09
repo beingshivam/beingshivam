@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <script>
+<head> 
+     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -12,15 +12,14 @@
   ga('send', 'pageview');
 
 </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- Animate CSS -->
-      <link rel="stylesheet" href="css/animate.css">
-    </head>
-    <title>Shivam's blog</title>
+
+    <title>beingshivam- Latest Post</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -80,86 +79,88 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/geek.png')">
+    <header class="intro-header"  style="background-image: url('img/shakthi-bg.jpg') ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1 class="animated bounce"><br><br><br><br>Shivam's Blog</h1>
-                        <hr class="small">
-                        <span class="subheading">Navigate below for my posts.</span>
+                    <div class="post-heading">
+                        <h1>Met shakthimaan! </h1>
+                        <h2 class="subheading">Foss workshop for begineers</h2>
+                        <span class="meta">Posted by <a href="#">Shivam Ahirao</a> on June 05, 2017</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="Fossworkshop.html">
-                        <h2 class="post-title">
-                            Met shakthimaan !
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Workshop on Foss for beginners.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Shivam Ahirao</a> on June 5, 2017</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="Maypythonmeet-up.html">
-                        <h2 class="post-title">
-                            Python May Meetup
-                        </h2>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Shivam Ahirao</a> on May 29,2017</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="Pyconpune2017.html">
-                        <h2 class="post-title">
-                            Pycon pune 2017
-                        </h2>
-                        <h3 class="post-subtitle">
-                            1st Regional-Pycon (Pune Chapter).
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Shivam Ahirao</a> on Feb 19,2017 </p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            
-                        </h2>
-                        <h3 class="post-subtitle">
-                            
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#"></p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    
+    <!-- Post Content -->
+    <article>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
+                    <p>Firstly I heard him in Pycon Pune reciting  "Nursery rhymes " ;) . It was one of the best thing in Pycon. Got to know from a meetup friend that he wrote a book on " I want to do a project tell me what to do ?". Had the same question since the time I started with python. So I Ordered the book  and started reading it. But I never thought that I'll be attending a hand's on workshop by the author himself on the same topic, sound's different but it happened.</p>
+
+                    <p>The workshop started at 10 am and shakthimaan was ready to help us ;), the teaching approach which shakti uses is just awesome every single slide which he displays has meaning .He took hand's-on workshop on git , I tried  git on windows (git bash) and this time I used Fedora. Previously I referred some YouTube videos , tutorials and what not But still the logical approach was missing,  but this workshop helped me in a logical sense .It not only helped me build my logic but it helped me get all basics about "FOSS", "getting started with contribution", "mailing list guidelines", "opensource" etc. </p>
+
+                    <p>Previously I was doubtful about the mind-map, how to select area of interest and how to focus on it and being " jack of all trades and master of  One ", Thank you shakthimaan for helping a beginner like me.</p>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://shivamahirao-in.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
+                    <!p><!/p>
+
+                    <!p><!/p>
+
+                    <!h2 class="section-heading"><!/h2>
+
+                    <!p><!/p>
+
+                    <!p><!/p>
+
+                    <!blockquote><!/blockquote>
+
+                    <!p><!/p>
+
+                    <!h2 class="section-heading"><!/h2>
+
+                    <!p><!/p>
+
+                    <!a href="#">
+                        <!img class="img-responsive" src="img/post-sample-image.jpg" alt="">
+                    <!/a>
+                    <!span class="caption text-muted"><!/span>
+
+                    <!p><!/p>
+
+                    <!p><!/p>
+
+                    <!p><!a href="http://spaceipsum.com/"><!/a> <!a href="https://www.flickr.com/photos/nasacommons/"><!/a><!/p>
+                <!/div>
+            <!/div>
+        <!/div>
+    <!/article>    
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center" style="margin-right: 350px">
                             <li>
                             <a href="https://twitter.com/shivam_ahirao">
                                 <span class="fa-stack fa-lg">
@@ -199,7 +200,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p style="margin-left: 300px" class="copyright text-muted">&copy;Shivam Ahirao</p>
+                    <p style="margin-left: 100px" class="copyright text-muted">&copy;Shivam Ahirao</p>
                 </div>
             </div>
         </div>
