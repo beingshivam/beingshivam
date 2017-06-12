@@ -65,7 +65,7 @@
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="Fossworkshop.html">Latest Post</a>
+                        <a href="post4azure.html">Latest Post</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -79,14 +79,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header"  style="background-image: url('img/shakthi-bg.jpg') ">
+    <header class="intro-header"  style="background-image: url('img/jupyter2.jpg') ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Met shakthimaan! </h1>
-                        <h2 class="subheading">Foss workshop for begineers</h2>
-                        <span class="meta">Posted by <a href="#">Shivam Ahirao</a> on June 05, 2017</span>
+                        <h1><strong>Microsoft Azure notebooks</strong></h1>
+                        <h2 class="subheading">Code, Share, Learn using Jupyter notebooks.</h2>
+                        <span class="meta">Posted by <a href="#">Shivam Ahirao</a> on June 11, 2017</span>
                     </div>
                 </div>
             </div>
@@ -98,16 +98,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Firstly I heard him in Pycon Pune reciting  "Nursery rhymes " ;) . It was one of the best thing in Pycon. Got to know from a meetup friend that he wrote a book on " I want to do a project tell me what to do ?". Had the same question since the time I started with python. So I Ordered the book  and started reading it. But I never thought that I'll be attending a hand's on workshop by the author himself on the same topic, sound's different but it happened.</p>
+                    <img title="juypter" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" alt="juypter" src="img/juyptersmall.png" border="0" height="48" width="167">
+                    <img title="notebooks" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" alt="notebooks" src="img/notebooks.jpg" border="0" height="42" width="240">
+                    <p>Whenever you make your hands dirty on some code or deploy it on your machine what things you usually check:
+<ul style="list-style-type:disc">
+<li>working environment</li> 
+<li>System configuration</li>
+</ul>
+                   </p>
 
-                    <p>The workshop started at 10 am and shakthimaan was ready to help us ;), the teaching approach which shakti uses is just awesome every single slide which he displays has meaning .He took hand's-on workshop on git , I tried  git on windows (git bash) and this time I used Fedora. Previously I referred some YouTube videos , tutorials and what not But still the logical approach was missing,  but this workshop helped me in a logical sense .It not only helped me build my logic but it helped me get all basics about "FOSS", "getting started with contribution", "mailing list guidelines", "opensource" etc. </p>
+                    <p>If you wish to play around with R , Python (2 and 3), Ruby this post will be very helpful for you! It works best for python though :).<br>So now without worrying about your system's RAM like I used to 😂, and even working environments, I'll come straight to the solution  <strong>"jupyter notebooks"</strong>.</p>
 
-                    <p>Previously I was doubtful about the mind-map, how to select area of interest and how to focus on it and being " jack of all trades and master of  One ", Thank you shakthimaan for helping a beginner like me.</p>
+                    <p>Sometimes while coding we need to install lots of dependencies (modules), we install them either directly (if we use editors like pycharm for python) or we install them using terminal. This is hectic as it takes a lot of time and most of the time we end up learning nothing.<br>Jupyter notebooks is an opensource web-application (<a href="https://http://jupyter.org/">http://jupyter.org/</a>) you can set it locally or  Via an Azure Virtual Machine. In this blog I'll tell you how to set it using Azure.
+<br><strong>Requirements-</strong>
+<ul style="list-style-type:disc">
+<li>Internet connection (pretty good)</li> 
+<li>Microsoft account(you can signup it'll take couple of mins.)</li>
+</ul>
+                   </p>
+                    <p>Microsoft azure notebook service provides a FREE jupyter notebook, follow the steps to get started with your own notebook. I have shown using python3.<br>
+<ol type="1">
+<li>Log into Azure Juypter Notebook server (<a href="https://notebooks.azure.com">https://notebooks.azure.com</a>) using Microsoft account.</li>
+<p><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="img/azurelogin.png" width="549" height="310"></p>
+<li>Go to Libraries (top left of the page). </li>
+<p><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="img/azurelibrary.png" width="523" height="221"></p>
+<li>Click New Library to create a library (give it a suitable name, e.g. Python Notebooks.)</li>
+<p>><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="img/newlibrary.png" width="240" height="165"></p>
+<li>You should now be in your new library. Click Open in Jupyter to get a Jupyter environment.</li>
+<p><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="img/openinjupyter.png" width="443" height="218"></p>
+<li>At the top-right of the page, click New Python 3. You will now have a new notebook, and you're ready to start working. </li>
+<p><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="img/python3.png" width="562" height="128"></p>
+<li>You should now see your new Juypter Notebook</li>
+<p><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="img/openinjupyter.png" width="617" height="125"></p>
+<li>By default, the notebook is titled "untitled", to rename your notebook simply click on untitled and enter the new name</li>
+<p><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="img/renameit.png" width="517" height="150"></p>
+<li>And its done, now you have 4GB of RAM remotely.</li>
+</ol>
+Start coding ;)</p>
 
-
-                    <!p><!/p>
-
-                    <!p><!/p>
+                    <p>It's one of the most effective way of creating interactive notebooks which contains live codes, graphical visualisation etc.<br><br><strong>Some shortcuts while running jupyter notebooks-</strong>
+<ul style="list-style-type:disc">
+<li>"Ctrl+Enter" to run the current cell.</li> 
+<li>"Shift+Enter" to insert new cell.</li>
+</ul>
+<br>Try it put on your own, hope this will help you become more productive.<br>
+<strong>Happy coding:)</strong></p>
 
                     <!h2 class="section-heading"><!/h2>
 
